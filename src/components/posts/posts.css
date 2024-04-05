@@ -1,0 +1,109 @@
+.category_btn{
+    background:var(--color-bg-variant);
+    color: var(--color-primary-variant);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.category_btn:hover{
+    color: white;
+}
+
+.post_thumbnail {
+    border-radius: 5rem 0;
+    border: 1rem solid var(--color-primary-variant);
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+    width: 70%; /* Adjusted width */
+}
+
+.post_body{
+    margin-bottom: 2rem;
+    
+}
+
+.post_title{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.posts{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;    margin-left: 20%;
+
+}
+
+.post:hover .post_thumbnail img
+{
+    filter: saturate(0);
+    transition: filter 500ms ease;
+    
+}
+.post_author{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+
+}
+ 
+.post_author-avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+
+
+
+.featured{
+    margin-top: 8rem;
+    margin: auto;
+}
+
+.featured_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    margin: auto;
+   
+}
+
+.featured .post_thumbnail {
+    height: fit-content;
+    margin-left: auto; /* Center the thumbnail */
+    margin-right: auto; /* Center the thumbnail */
+}
+
+.posts_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-area: 5rem;
+    margin-bottom: 5rem;
+    margin: auto;
+}
+
+
+.form_section-container{
+    width: 40%;
+}
+
+.form{
+    display:flex ;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+input,textarea,select{ padding: 0.8rem 1.4rem;
+    background-color: var(--color-primary-variant);
+   
+    resize: none;
+    color: white;
+
+}
+

@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.me{
+    background: linear-gradient(var(--color-primary),transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50%-11rem);
+    margin-top: 4rem;
+    background: 12rem 12rem 0 0;
+    padding: 5rem 1.5rem 1.5rem 1.5rem ;
+}
