@@ -37,12 +37,12 @@ export default function Projects (){
     <div>
         <img src={pro3}></img>
     </div>
-    <h3 className="text-sky-300  text-xl">Ecommerce Website</h3>
+    <h3 className="text-sky-300  text-xl">PortFolio website</h3>
     <p>
-An ecommerce website is an online platform where businesses can sell products or services directly to consumers over the internet</p>
+A website highlighting my skills proficiency and projects i have executed.</p>
     <div className="portfolio__item-cta">
-    <a href="https://github.com/Jade-Alpha/Portfolio" className="btn"target="_blank">github</a>
-    <a href="https://ecommerce-app-chi-ruddy.vercel.app/" className="btn btn-primary text-black" target="_blank">Live Demo</a>
+    <a href="https://github.com/Apoerakay/my-portfolio" className="btn"target="_blank">github</a>
+    <a href="hhttps://my-portfolio-ruby-one-46.vercel.app/" className="btn btn-primary text-black" target="_blank">Live Demo</a>
     </div>
 
 
@@ -55,7 +55,7 @@ An ecommerce website is an online platform where businesses can sell products or
     <h3 className="text-sky-300  text-xl">Agro Ecommerce</h3>
     <p>An Agro ecommerce website provides a convenient platform for farmers and consumers to buy and sell agricultural products online</p>
     <div className="portfolio__item-cta">
-    <a href="https://github.com/Jade-Alpha/Portfolio" className="btn"target="_blank">github</a>
+    <a href="https://github.com/Jade-Alpha/Agble_Ville" className="btn"target="_blank">github</a>
     <a href="https://ecommerce-app-chi-ruddy.vercel.app/" className="btn btn-primary text-black" target="_blank">Live Demo</a>
     </div>
 
