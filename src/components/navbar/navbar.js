@@ -8,7 +8,6 @@ const Navbar =()=>{
         <nav>
             <a href="#" className="active">Home </a>
             <a href="#about">About</a>
-            <a href="#skills">Skills</a>
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#achievements">Achievement</a>

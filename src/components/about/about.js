@@ -44,8 +44,7 @@ function About(props) {
                     <p>
                         Crafting immersive digital experiences through innovative design and flawless functionality."
 
-                        This statement emphasizes your expertise in creating engaging web experiences while highlighting your skills in design and development. It conveys a sense of creativity, technical prowess, and a commitment to delivering high-quality work.
-
+                        This statement emphasizes my expertise in creating engaging web experiences while highlighting my skills in design and development. 
                     </p>
                     <a href='#contact' className='btn btn-primary text-black'>Let's Talk</a>
                 </div>
